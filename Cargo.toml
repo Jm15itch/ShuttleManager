@@ -1,0 +1,12 @@
+[package]
+name = "ShuttleManager"
+version = "0.0.1"
+license = "GNU GPL-3"
+edition = "2021"
+
+[dependencies]
+clap = "*"
+toml = "*"
+tracing = "*"
+tracing-subscriber = "*"
+daemonize = "*"
